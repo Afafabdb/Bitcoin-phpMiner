@@ -13,10 +13,10 @@ require_once(dirname(__file__) . '/miner.php');
 set_time_limit(0);
 
 // Example
-$host = 'pit.deepbit.net';
-$port = 8332;
-$user = 'username';
-$pass = 'password';
+$host = 'xmr.pool.minergate.com';
+$port = 845700;
+$user = 'adarshmishra.101998@gmail.com';
+$pass = 'holyangels98';
 
 $miner = new Miner($host, $port, $user, $pass);
 
